@@ -1,0 +1,49 @@
+@media screen and (max-width:1080px) {    
+    .nav p{
+        display: none;
+      }
+      .heading_div{
+        margin: 100px 35px 10px 35px;
+      }
+      .heading_div h1{
+        font-size: 35px;
+      }
+      .heading_div p{
+        font-size: 17px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+      }
+      .card{
+        margin: 0px;
+        margin-bottom: 50px;
+        width: 90%;
+        margin-left: 5%;
+      }
+      .footer_div h1{
+        font-size: 30px;
+      }
+      .footer_div p{
+        margin: 10px 0px 30px 0px;
+        font-size: 18px;
+      }
+      .footer_div1{
+        margin: 10px;
+      }
+      .footer_flex{
+        gap: 30px;
+      }
+      .Netflix_hide{
+        display: inline;
+        font-size: 40px;
+        text-decoration: none;
+        color: rgb(255, 38, 0);
+        background-color: black;
+        font-family: lucida calligraphy;
+      }
+      .Netflix{
+       display: none;
+      }
+      .button2 a{
+        margin-right: 10px;
+      }
+}

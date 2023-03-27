@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-image: linear-gradient(to left, rgb(167, 87, 100), grey, rgb(78, 106, 117));
+    /* background-color: rgb(36, 33, 33); */
+  }
+  
+  .cards{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  
+  }
+  .card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.1);
+    border-color: #fff;
+    width: 21.25%;
+    border-radius: 12px;
+    /* box-shadow: 0px 13px 10px -7px black; */
+    box-shadow: 0px 0px 15px 0px black;
+    transition: 2s;
+    float: left;
+    padding-bottom: 20px;
+  }
+  
+  .card:hover{
+    box-shadow: 0px 30px 18px -8px black;
+    transform: scale(1.05, 1.05);
+  }
+  
+  .card_img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #fff;
+  }
+  
+  .card_inf{
+    background-color: #fff;
+    height: 130px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .card_category{
+    background-color: #fff;
+    color: green;
+  }
+  
+  .card_title{
+    background-color: #fff;
+    padding: 10px;
+    color: magenta;
+  }
+  
+  .button1{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .nav{
+    background-color: black;
+    width: 100%;
+    /* position: sticky; */
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+  }
+  .Netflix{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 38, 0);
+    background-color: black;
+    font-family: lucida calligraphy;
+  }
+  .Netflix_hide{
+    display: none;
+  }
+  .button2{
+    position: fixed;
+    top: 0px;
+    right: 200px;
+    margin-top: 12px;
+    /* background-color: black; */
+    padding: 7px 15px;
+    text-decoration: none;
+    background-color: black;
+    /* border: 1px solid gray; */
+    color: white;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+  .button2 a{
+    padding: 7px 15px;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+  
+  .nav p{
+    position: fixed;
+    top: 0;
+    right: 360px;
+  }
+  
+  .button2 a:hover{
+    background-color: rgb(58, 52, 52);
+  }
+  .button3{
+    position: fixed;
+    top: 0;
+    right: 360px;
+    margin-top: 20px;
+    background-color: black;
+  }
+  .button3 a{
+    padding: 7px 25px;
+    text-decoration: none;
+    background-color: rgb(201, 30, 0);
+    border: 1px solid gray;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  .button3 a:hover{
+    background-color: rgb(255, 38, 0);
+  }
+  .nav p{
+    float: right;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    margin-right: 200px;
+    font-size: 15px;
+  }
+  .heading_div{
+    margin-top: 100px;
+    margin-left: 80px;
+    /* color: white; */
+  }
+  .heading_div h1{
+    font-size: 50px;
+    font-weight:bolder;
+    font-style: normal;
+  }
+  .heading_div p{
+    font-size: 21px;
+    margin-top: 10px;
+    margin-right: 700px;
+  }
+  .footer_div{
+    /* color: white; */
+    /* background-color: black; */
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .footer_div h1{
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .footer_div p{
+    margin: 15px 300px 40px 300px;
+    font-size: 25px;
+  }
+  .footer_div a{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color:  rgb(255, 38, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .footer_div1{
+    margin: 80px;
+  
+  
+  }
+  .footer_flex{
+    display: flex;
+    gap: 130px;
+  }
+  .footer_flex div a{
+    display: block;
+    text-decoration: none;
+    /* color: gray; */
+    color: black;
+  
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .footer_flex div a:hover{
+    text-decoration: underline;
+  }
+  .ancher a{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 19px;
+  }
+  .ancher a:hover{
+    text-decoration: underline;
+  }
+  
+  .input{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    top: 2%;
+    left: 20%;
+    border-radius: 20px;
+    padding: 3px 10px;
+    border: none;
+  }
+  
+  .input:focus-within{
+    border: 3px solid red;
+  }
+  
+  .login_page {
+    background-image: linear-gradient(to left, pink, grey, skyBlue);
+    margin: 15% 30%;
+    /* box-shadow: 0px 0px 15px 0px white; */
+    box-shadow: 0px 0px 15px 0px white;
+  
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    transform: scale(1.05,1.05);
+  }
+  
+  .login_page h3{
+    color: green;
+  }
+  
+  .login_page input {
+    width: 60%;
+    background-color: white;
+    height: 25px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    border: none;
+    text-align: center;
+  }
+  
+  .login_page_submit_button {
+    padding: 8px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(238, 177, 103);
+  }
+  
+  .login_page_submit_button:hover {
+    background-color: pink;
+  }
+  
+  .invalid_style{
+    color: red;
+    text-decoration: none;
+  
+  }
+  
+  .create_account_page {
+    background-image: linear-gradient(to left, pink, grey, skyBlue);
+    margin: 15% 30%;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 0px 15px 0px white;
+    text-align: center;
+  }
+  
+  .create_account_page_input {
+    width: 60%;
+    height: 25px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    border: none;
+    text-align: center;
+  }
+  
+  .create_account_page_button {
+    padding: 5px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(238, 177, 103);
+  }
+  
+  .create_account_page_button:hover {
+    background-color: pink;
+  }
+  
+  .create_account_link {
+    color: white;
+    /* font-size: 20px; */
+    text-decoration-color: white;
+  }
+  
+  .homee{
+    text-decoration: none;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+  }
+  
+  .homeee{
+    text-decoration: none;
+    position: fixed;
+    top: 30px;
+    right: 150px;
+  }
+  
+  .user{
+    color: brown;
+  }
+  
+  .payd{
+    background-image: linear-gradient(to left, pink, grey, skyBlue);
+    margin: 15% 30%;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 0px 15px 0px white;
+    text-align: center;
+  }
+  
+  .commercial_container{
+    background-image: linear-gradient(to left, pink, grey, skyBlue);
+    margin: 15% 30%;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 0px 15px 0px white;
+    text-align: center;
+  }
+  
+  .areYou{
+    /* text-decoration: none; */
+    color: white;
+    position: absolute;
+    top: 390px;
+    left: 420px;
+  }
+  
+  .areYou1{
+    /* text-decoration: none; */
+    color: white;
+    position: absolute;
+    top: 390px;
+    left: 770px;
+  }
+  
+  .auth{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: white;
+  }

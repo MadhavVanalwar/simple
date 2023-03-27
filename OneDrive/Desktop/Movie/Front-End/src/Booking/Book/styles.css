@@ -1,0 +1,107 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .single-seat {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    border-radius: 10px !important;
+    background: #e0e0e0 !important;
+    max-width: 30px !important;
+    min-width: 30px !important;
+    padding: 5px !important;
+    font-size: 11px !important;
+  }
+  .active-single-seat {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    border-radius: 10px !important;
+    background: #2926ff !important;
+    color: #ffffff !important;
+    max-width: 30px !important;
+    min-width: 30px !important;
+    padding: 5px !important;
+    font-size: 11px !important;
+  }
+  .not-available {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    border-radius: 10px !important;
+    background: #313131 !important;
+    color: #ffffff !important;
+    max-width: 30px !important;
+    min-width: 30px !important;
+    padding: 5px !important;
+    font-size: 11px !important;
+    cursor: default !important;
+  }
+  .blank-seat {
+    border: none !important;
+    cursor: default !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    border-radius: 10px !important;
+    max-width: 30px !important;
+    min-width: 30px !important;
+    padding: 5px !important;
+  }
+
+  .happy{
+    text-decoration: none;
+    background-color: rgb(51, 51, 245);
+    color: white;
+    padding: 6px 10px 11px 10px;
+    border-radius: 5px;
+  }
+
+  .happy:hover{
+    color: white;
+  }
+
+  .happy1{
+    background-image: linear-gradient(to left, grey, pink, skyBlue);
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tic{
+    background-image: linear-gradient(to left, rgb(248, 237, 237), rgb(238, 220, 223), rgb(214, 232, 240));
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px grey;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 150px;
+    margin-bottom: 100px; */
+    margin: 100px 30%;
+  }
+
+  .tic h1{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .theater{
+    position: absolute;
+    top: 210px;
+    right: 400px;
+  }
+
+  .time{
+    position: absolute;
+    top: 210px;
+    right: 200px;
+  }
+
+  .date{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+  }
